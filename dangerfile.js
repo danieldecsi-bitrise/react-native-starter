@@ -27,7 +27,7 @@ if (danger.github.pr.additions + danger.github.pr.deletions > bigPRThreshold) {
 
 if (danger.github.pr.assignee === null) {
   fail(
-    ''
+    'lkjhlkjhljkh'
   );
 }
 
