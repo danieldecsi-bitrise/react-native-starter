@@ -21,7 +21,7 @@ const bigPRThreshold = 600;
 if (danger.github.pr.additions + danger.github.pr.deletions > bigPRThreshold) {
   warn(`:exclamation: Big PR`);
   markdown(
-    `Pull Request size seems relatively large. If Pull Request contains multiple changes, split each into separate PR will helps faster, easier review.`
+    ``
   );
 }
 
